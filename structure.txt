@@ -1,0 +1,13 @@
+file_tracker_app/
+├── main.py                      # Main entry point
+├── core/
+│   ├── __init__.py
+│   ├── file_tracker.py          # Original file tracking functionality
+│   └── duplicate_finder.py      # New duplicate finding functionality
+├── ui/
+│   ├── __init__.py
+│   ├── file_tracker_tab.py      # UI for file tracking feature
+│   └── duplicate_finder_tab.py  # UI for duplicate finder feature
+└── utils/
+    ├── __init__.py
+    └── file_utils.py            # Shared file operations utilities
